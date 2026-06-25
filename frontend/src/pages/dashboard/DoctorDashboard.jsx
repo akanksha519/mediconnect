@@ -3,8 +3,7 @@ import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import { useAuth } from "../../context/AuthContext";
 
-const API = "http://localhost:5000/api";
-
+const API = "https://mediconnect-backend-4vgp.onrender.com/api";
 export default function DoctorDashboard() {
   const { user, logout }                = useAuth();
   const navigate                        = useNavigate();

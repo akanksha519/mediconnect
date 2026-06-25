@@ -2,8 +2,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 
-const API = "http://localhost:5000/api";
-
+const API = "https://mediconnect-backend-4vgp.onrender.com/api";
 export default function DoctorSetup() {
   const navigate = useNavigate();
   const [form, setForm] = useState({
