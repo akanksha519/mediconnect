@@ -13,7 +13,13 @@ const server = http.createServer(app);
 connectDB();
 initSocket(server);
 
-app.use(cors({ origin: "http://localhost:5173", credentials: true }));
+app.use(cors({
+  origin: [
+    "http://localhost:5173",
+    "https://mediconnect-chi-five.vercel.app"
+  ],
+  credentials: true
+}));
 app.use(express.json());
 
 app.use("/api/auth",         require("./routes/auth.routes"));
