@@ -3,8 +3,8 @@
 A full-stack healthcare appointment booking platform built with the MERN stack.
 
 ## Live Demo
-- Frontend: (coming soon)
-- Backend API: (coming soon)
+- Frontend: https://mediconnect-chi-five.vercel.app
+- Backend API: https://mediconnect-backend-4vgp.onrender.com
 
 ## Features
 
